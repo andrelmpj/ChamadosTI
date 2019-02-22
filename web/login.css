@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/02/2019, 07:28:30
+    Author     : NIFVC
+*/
+body { 
+
+    background-image: url("img/backti.jpg");
+    background-repeat: no-repeat;
+
+    background-size: 100% ;
+}
+
+#Campos { 
+    position: absolute;
+    top: 250px;
+    left: 40%;
+}
+
+#Acesso { 
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+    color: #ffffff;
+    padding: 10px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 35px;
+    background-color: #1C6EA4;
+    border-bottom: #003366;
+    border-top: #003366;
+    border-left: #003366;
+    border-right: #003366;
+     background-color: rgba(10,23,55,0.5);
+    box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 1px rgba(255,255,255,1);
+
+}
+
+#btnEntrar { 
+    position: absolute;
+    top: 220px; 
+    left:  88px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #123d54;
+    padding: 10px 20px;
+    background: -moz-linear-gradient(
+        top,
+        #afd9fa 0%,
+        #588fad);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#afd9fa),
+        to(#588fad));
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #003366;
+    -moz-box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 1px rgba(255,255,255,1);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 1px rgba(255,255,255,1);
+    box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 1px rgba(255,255,255,1);
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,0.7),
+        0px 1px 0px rgba(255,255,255,0.3);
+}
